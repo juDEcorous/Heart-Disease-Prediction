@@ -18,7 +18,7 @@ People with cardiovascular disease or who are at high cardiovascular risk (due t
 
 -  Is this a classification or regression problem?
  
-  * This is a **Classification** Problem.
+   * This is a **Classification** Problem.
 
 - How many features does the data have?
 
@@ -31,7 +31,7 @@ People with cardiovascular disease or who are at high cardiovascular risk (due t
 -  What, if any, challenges do you foresee in cleaning, exploring, or modeling this dataset?
 
    * We have a clean data.
-   * Exploring the data will is a trick as there we can see EKG on the data.
+   * Exploring the data will is a trick as we can see EKG on the data.
    * Choosing a model will a big challenge as I'm not sure if we have enough data to make a good prediction.
    
    
