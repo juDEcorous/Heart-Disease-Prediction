@@ -21,16 +21,18 @@ People with cardiovascular disease or who are at high cardiovascular risk (due t
 
 **Feature Engineering** is also done to see if we can get a better results on predicting the Heart Failure.
    
-# Exploratory Data Analysis
-![Screenshot 2023-05-02 013458](https://user-images.githubusercontent.com/125017784/235898300-25cb2492-5c68-47bf-ba0e-f9ed8ab7ee21.png)
+# Exploratory Data Analysis:
+
+![Screenshot 2023-05-03 042022](https://user-images.githubusercontent.com/125017784/235902485-fa957f24-ecfb-4d77-96f6-114eb5ae8288.png)
 
 Explaine1
 
-![Screenshot 2023-05-02 013510](https://user-images.githubusercontent.com/125017784/235898322-fee87bae-6854-4434-a73d-5aedfae0b2fc.png)
+![Screenshot 2023-05-03 042003](https://user-images.githubusercontent.com/125017784/235902476-000f399a-1f32-44cc-a83f-e9d32e80c3a1.png)
 
 Explaine2
 
-![Screenshot 2023-05-02 192449](https://user-images.githubusercontent.com/125017784/235898335-28818a9d-b9c4-41a5-9d2d-8c1bc2592d94.png)
+![Screenshot 2023-05-03 042012](https://user-images.githubusercontent.com/125017784/235902587-9321e716-8279-4b0f-851c-ff259d6ab1e3.png)
+
 
 Explaine3
 
@@ -40,12 +42,12 @@ Models used blah blah
 
 Defaulted Dataset: 
 
-![Screenshot 2023-05-03 040414](https://user-images.githubusercontent.com/125017784/235899132-e50f1504-d6b3-48d7-aca0-e23147e1cb45.png)
+![Screenshot 2023-05-03 042115](https://user-images.githubusercontent.com/125017784/235902415-a928beb0-0952-47ce-aae5-eff875b78dec.png)
 
 
 Engineered Dataset:
 
-![Screenshot 2023-05-03 040449](https://user-images.githubusercontent.com/125017784/235899157-a5d9da2c-f8cd-431e-b0dd-fffcc72137d8.png)
+![Screenshot 2023-05-03 042125](https://user-images.githubusercontent.com/125017784/235902394-ad3f6ffe-3c60-4ffd-a4fb-049987f9872e.png)
 
 
 
