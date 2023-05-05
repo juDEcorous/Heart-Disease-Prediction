@@ -32,20 +32,19 @@ This method was used to see if we can get a better prediction from the defaulted
 <img src=https://user-images.githubusercontent.com/125017784/235902485-fa957f24-ecfb-4d77-96f6-114eb5ae8288.png>
 </p>
 
-Explaine1
+This chart shows the disctribution of patients with heart disease by age. As we can see we don't have a normal distribution on age - Most of our patients are in Late Middle age. We have few patients in Late Adulthood as well as in Early Middle age. According to research Late Adulthood (65 and above) are more at risk that any other age group. However, on this graph we see that the peak is at about age 58.
    
 <p align="center">  
 <img src=https://user-images.githubusercontent.com/125017784/235902476-000f399a-1f32-44cc-a83f-e9d32e80c3a1.png>
 </p>
 
-Explaine2
+Typical angina (ATA) or Angina Pectoris is when heart does not get enough oxygenated blood because of blockage. This means that we expect more patients to have this symptom than others. This Bar graph shows the types of chest pain the patients with Heart Disease have. Surprisingly, most of our patients with the disease shows to have an Asymptomatic Chest Pain. Non-Anginal Pain(NAP) comes second. Typical Angina and Atypical Angina have almost the same ratio and there is about 25 patients with this Chest Pain. It seems like most of our patients with Heart Disease doesn't show much Angina than what I expected them to. 
    
 <p align="center">   
 <img src=https://user-images.githubusercontent.com/125017784/235902587-9321e716-8279-4b0f-851c-ff259d6ab1e3.png>
 </p>
 
-
-Explaine3
+Upwards (ST elevation) is associated with Myocardial injury or also known as Heart Attack. Downwards (ST depression) is associated with Myocardial Ischemia, blockage of coronary artery. For this column, we are expecting to have more Up and Down values. Instead the graph shows that the data set has more Flat ST slope(Normal).
 
 # Machine Learning
 
@@ -59,18 +58,22 @@ Explaine3
 Defaulted Dataset: 
 
 <p align="center">
-<img src=https://user-images.githubusercontent.com/125017784/235902415-a928beb0-0952-47ce-aae5-eff875b78dec.png>
+<img src=https://user-images.githubusercontent.com/125017784/235902415-a928beb0-0952-47ce-aae5-eff875b78dec.png> </br>
+<img src=https://user-images.githubusercontent.com/125017784/236445437-4b8590ab-9162-497f-bf22-fce28563834e.png>
 </p>
 
 
 Engineered Dataset:
 <p align="center">
-<img src=https://user-images.githubusercontent.com/125017784/235902394-ad3f6ffe-3c60-4ffd-a4fb-049987f9872e.png>
+<img src=https://user-images.githubusercontent.com/125017784/235902394-ad3f6ffe-3c60-4ffd-a4fb-049987f9872e.png> </br>
+<img src=https://user-images.githubusercontent.com/125017784/236445442-308828d6-08f3-47ce-9e46-e817917cad67.png>
 </p>
 
 
 
 # Recommendation
 
-blah blah blah
+- Balanced Random Forest Model works best on the defaulted data set. With Sensitivity Score of 89% and Accuracy score of 88%. We also need to take note that this model have the lowest Type II error for the defaulted data set.
+- In Engineered dataset, Light Gradient Boosting model shines best giving us two models with 90% Sensitivity with low Type II error score. These models are the (1) Oversampled and the (2) Balanced Light Gradient Boosting.
 
+With this, I can say that if we are using the defaulted dataset, I will recommend using the **Random Forest** with 'class_weight = balanced' as it can 88% predict if the patient is likely to have a Heart Failure or not. However, if the Engineered dataset is to the stakeholders liking, **Light Gradient Boosting** would be better. Balancing with 'RandomOverSampler' method would be best for this model. This model has 89% Accuracy on predicting if the patient will develop Heart Failure.
