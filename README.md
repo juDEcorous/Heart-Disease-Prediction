@@ -13,13 +13,18 @@ People with cardiovascular disease or who are at high cardiovascular risk (due t
 
 ![Screenshot 2023-04-21 214624](https://user-images.githubusercontent.com/125017784/235896527-ae16e01c-cfe6-46bb-95af-7e09a8bfe056.png)
 
-**Data cleaning** was done for this dataset:
+## Data cleaning
+We have cleaned the data before using it to Machine Learning.
 1. Duplicates has been checked
 2. Missing values has been managed
 3. Categorical values has been validated
 4. Numerical Incosistencies has been taken care of
 
-**Feature Engineering** is also done to see if we can get a better results on predicting the Heart Failure.
+## Feature Engineering
+This method was used to see if we can get a better prediction from the defaulted dataset.
+1. Age was binned by decades
+2. BP values was grouped by Blood Pressure Categories
+3. Oldpeak was renamed by the disease it is associate with
    
 # Exploratory Data Analysis:
 
@@ -44,17 +49,22 @@ Explaine3
 
 # Machine Learning
 
-Models used blah blah
+## Models used
+1. Decision Tree
+2. Random Forest
+3. Light Gradient Boosting
+4. Support Vector Machines
 
+## Metrics for Best Model
 Defaulted Dataset: 
 
-<p align="right">
+<p align="center">
 <img src=https://user-images.githubusercontent.com/125017784/235902415-a928beb0-0952-47ce-aae5-eff875b78dec.png>
 </p>
 
 
 Engineered Dataset:
-<p align="right">
+<p align="center">
 <img src=https://user-images.githubusercontent.com/125017784/235902394-ad3f6ffe-3c60-4ffd-a4fb-049987f9872e.png>
 </p>
 
