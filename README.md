@@ -73,7 +73,7 @@ Engineered Dataset:
 
 # Recommendation
 
-- Balanced Random Forest Model works best on the defaulted data set. With Sensitivity Score of 89% and Accuracy score of 88%. We also need to take note that this model have the lowest Type II error for the defaulted data set.
-- In Engineered dataset, Light Gradient Boosting model shines best giving us two models with 90% Sensitivity with low Type II error score. These models are the (1) Oversampled and the (2) Balanced Light Gradient Boosting.
+Adding more information in our dataset would be appreciate as there are more factors that leads to HF that were not included in this research. Some examples are: 
+</br>
+<img src= https://github.com/juDEcorous/Heart-Disease-Prediction/assets/125017784/0421a37a-2e35-45aa-9210-b14b9929ee69>
 
-With this, I can say that if we are using the defaulted dataset, I will recommend using the **Random Forest** with 'class_weight = balanced' as it can 88% predict if the patient is likely to have a Heart Failure or not. However, if the Engineered dataset is to the stakeholders liking, **Light Gradient Boosting** would be better. Balancing with 'RandomOverSampler' method would be best for this model. This model has 89% Accuracy on predicting if the patient will develop Heart Failure.
